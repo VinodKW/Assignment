@@ -22,7 +22,7 @@ class Toppers implements Comparator<StudentData> {
         
         List<StudentData> student = new ArrayList<StudentData>();
 
-        //for fetching out the data in txt/csv file and saving its pointer value in the reference br1
+        //for fetching out the data from txt/csv file and saving its pointer value in the reference br1
         BufferedReader br1 = new BufferedReader(new FileReader( new File("file1.txt")));
 
         s = br1.readLine();
