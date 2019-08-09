@@ -66,7 +66,5 @@ class StudentData {
 		this.institute = institute;
 	}
 
-	public String getname() {
-		return name;
-	}
+	
 }
