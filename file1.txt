@@ -1,0 +1,6 @@
+1234, Vinod,99, CSE, JNEC
+1234, Ranveer,100, CSE, JNEC
+3453, Varad,100, CSE, JNEC
+2333, Gaurav,100, CSE, JNEC
+3232, Rushikesh,100, CSE, JNEC
+2323, Raj,100, CSE, JNEC
