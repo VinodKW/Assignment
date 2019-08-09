@@ -44,7 +44,7 @@ class Toppers implements Comparator<StudentData> {
         System.out.println("List of top 5 toppers");
         int count = 0;
 
-        //Displaying to top 5 students according to marks
+        //Displaying top 5 students according to marks
         for (StudentData std: student) {
         	if(count == 5) {
         		break;
