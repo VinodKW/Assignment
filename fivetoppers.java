@@ -16,10 +16,6 @@ class Toppers implements Comparator<StudentData> {
 
         Toppers t = new Toppers();
 
-        BufferedReader br = new BufferedReader(new FileReader( new File("file1.txt")));
-
-        String s = br.readLine();
-        
         List<StudentData> student = new ArrayList<StudentData>();
 
         //for fetching out the data from txt/csv file and saving its pointer value in the reference br1
