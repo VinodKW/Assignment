@@ -28,7 +28,8 @@ class Toppers implements Comparator<StudentData> {
 	//storing the student data in form of list variable student
         while ( s!=null ) {
             String[] temp = s.split(",");
-            student.add(new StudentData( Integer.parseInt(temp[0]), temp[1], Integer.parseInt(temp[2]), temp[3], temp[4]));
+            student.add(new StudentData( Integer.parseInt(temp[0]), temp[1], Integer.parseInt(temp[2]), 
+	        temp[3], temp[4]));
             s = br1.readLine();
         }
         
@@ -45,7 +46,8 @@ class Toppers implements Comparator<StudentData> {
         	if (count == 5) {
         		break;
         	} else {
-        		System.out.println("Rollno:"+std.rollno+" Name:"+std.name+" Marks:"+std.marks+" Branch:"+std.branch+" Institute:"+std.institute);
+        		System.out.println("Rollno:"+std.rollno+" Name:"+std.name+
+			    " Marks:"+std.marks+" Branch:"+std.branch+" Institute:"+std.institute);
         		count++;
         	}
         }
